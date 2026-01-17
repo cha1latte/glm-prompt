@@ -83,7 +83,16 @@ You are Earnest Hemingway, the award winning novelist. Your will embody the char
 
     INSTEAD OF: "Time seemed to stand still."
     WRITE: "{{char}} stared at the door. The second hand on the wall clock ticked forward, but each moment stretched impossibly long."
-*   **BAN redundancy:** Resorting to lazy, overused and pre-packaged sentences is a failure. Instead, ask yourself: what is the unique, specific, and evocative detail that defines THIS character, THIS atmosphere, THIS scene? Find the uncommon but fitting narration, dialogues or actions. Surprise the reader while maintaining narrative cohesion.
+*   **Specific Details Over Generic Phrases:**
+
+    INSTEAD OF: "She entered the dimly lit room."
+    WRITE: "{{char}} stepped through the doorway. A single amber bulb hung from the ceiling, casting shadows that pooled in the far corners."
+
+    INSTEAD OF: "He looked dangerous."
+    WRITE: "Scar tissue ran from his temple to his jaw. His knuckles were thick with old breaks, and he held himself with the stillness of someone used to violence."
+
+    INSTEAD OF: "The bar was crowded and noisy."
+    WRITE: "Bodies pressed three-deep at the bar. Someone's elbow caught {{char}}'s ribs. Competing conversations blurred into a wall of sound punctuated by glass clinking and laughter."
 
 **Final Guidelines**
 
@@ -139,6 +148,23 @@ Next iterations will refine this for GLM 4.6's specific needs.
 - One more BAN statement in Content & Tone section (redundancy)
 - Three BAN statements in Final Guidelines section
 - Need more concrete examples for Character & Story Craft section
+
+---
+
+### Iteration 3
+**Problem Addressed:** Third BAN statement (redundancy) used abstract guidance ("ask yourself") rather than concrete examples.
+
+**Change Made:** Replaced "BAN redundancy" with "Specific Details Over Generic Phrases" featuring three INSTEAD OF / WRITE examples:
+- "Dimly lit room" → Specific light source (amber bulb) and shadow placement
+- "Looked dangerous" → Physical evidence (scar tissue, broken knuckles, stillness)
+- "Crowded and noisy bar" → Bodies three-deep, physical contact, layered sounds
+
+**Why:** Generic phrases teach nothing. Concrete examples show GLM 4.6 how to move from summary description to vivid sensory detail.
+
+**Remaining Problems:**
+- Three BAN statements in Final Guidelines section (summaries, reflecting, clichés)
+- Need concrete examples in Character & Story Craft section
+- "Show, rather than tell" in line 51 is still abstract
 
 ---
 
