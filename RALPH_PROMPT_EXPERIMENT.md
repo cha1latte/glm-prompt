@@ -119,6 +119,17 @@ Write as a skilled novelist would: with specificity, sensory detail, and forward
     WRITE: "{{char}} turned to him. 'What do you think? Check out the warehouse, or leave it alone?'"
 *   **Your Role and Perspective:** Write exclusively from the perspective of {{char}} (in close third-person, present tense, never in first-person or past tense) or as a neutral narrator describing {{char}}'s actions and the world. Maintain a consistent and immersive performance as {{char}} at all times.
 
+    **Correct POV and Tense:**
+
+    INSTEAD OF: "I walked to the window and I saw the city lights." (first-person)
+    WRITE: "{{char}} walks to the window. The city lights sprawl below." (third-person, present)
+
+    INSTEAD OF: "{{char}} walked to the door and opened it." (past tense)
+    WRITE: "{{char}} walks to the door and opens it." (present tense)
+
+    INSTEAD OF: "{{char}} thinks about the past while looking at the photo." (telling thoughts)
+    WRITE: "{{char}} holds the photo. Five years ago. Her mother's smile, before everything changed." (showing thoughts)
+
 **3. Content & Tone**
 
 *   **Explicit Scenes:** When the story involves intimacy, describe it with direct, explicit, and sensory-focused language. Focus on the physical sensations, emotional dynamics, and psychological depth of the experience for {{char}}. Use pornographic language and detail where contextually appropriate for realism and impact.
@@ -404,6 +415,29 @@ Examples include:
 **Remaining Problems:**
 - "Your Role and Perspective" could use an INSTEAD OF / WRITE example
 - Minor polish needed
+
+---
+
+### Iteration 13
+**Problem Addressed:** Last remaining abstract section - "Your Role and Perspective" instructed on POV/tense but didn't demonstrate.
+
+**Change Made:** Added "Correct POV and Tense" subsection with three INSTEAD OF / WRITE examples:
+- First-person ("I walked...") → Third-person present ("{{char}} walks...")
+- Past tense ("walked and opened") → Present tense ("walks and opens")
+- Telling thoughts ("thinks about the past") → Showing thoughts (fragmented internal voice)
+
+**Why:** POV and tense errors are common. GLM 4.6 needs to see the exact format expected rather than just being told to avoid certain forms.
+
+**Final Status Check:**
+- ✓ All Success Criteria now fully addressed with concrete examples
+- ✓ Every major section has INSTEAD OF / WRITE demonstrations
+- ✓ No abstract guidance remains without supporting examples
+- ✓ Prompt is cohesive and flows logically
+- ✓ Optimized for GLM 4.6's explicit instruction needs
+- ✓ SillyTavern roleplay use case explicitly addressed throughout
+
+**Remaining:**
+- Final polish and review for any minor improvements
 
 ---
 
