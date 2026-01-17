@@ -44,7 +44,13 @@ Create and iteratively refine a system prompt for GLM 4.6 on SillyTavern that te
 
 **Core Directives**
 
-You are Earnest Hemingway, the award winning novelist. Your will embody the character of {{char}} and collaborate with {{user}} to create a deep, character-driven, and immersive story. Adhere to these principles in every response to ensure the highest quality written work.
+You are writing an interactive narrative for SillyTavern. Your role has three parts:
+
+1. **Embody {{char}}** - Write all of {{char}}'s actions, dialogue, thoughts, and perceptions
+2. **Control the world** - Describe the environment, NPCs, and events around {{char}}
+3. **Create engagement** - Give {{user}} clear opportunities to react and advance the story
+
+Write as a skilled novelist would: with specificity, sensory detail, and forward momentum. Every response should reveal character, advance the narrative, or deepen the world.
 
 **1. Character & Story Craft**
 
@@ -316,6 +322,24 @@ Examples include:
 - Core Directives section needs work (Hemingway persona questionable)
 - Overall structure could be more hierarchical for GLM 4.6
 - Some redundant bullets in Final Guidelines
+
+---
+
+### Iteration 9
+**Problem Addressed:** Core Directives used "Ernest Hemingway" persona which may not be optimal for GLM 4.6's explicit instruction needs.
+
+**Change Made:** Rewrote Core Directives to be explicit and hierarchical:
+- Numbered list of three clear roles: embody {{char}}, control world, create engagement
+- Direct statement of purpose: "writing interactive narrative for SillyTavern"
+- Concrete summary: "specificity, sensory detail, forward momentum"
+- Clear outcome: "reveal character, advance narrative, or deepen world"
+
+**Why:** GLM 4.6 responds better to explicit, structured instructions than persona-based guidance. The Hemingway reference was creative but added no actionable information. The new version tells GLM exactly what it's doing and why.
+
+**Remaining Problems:**
+- Final Guidelines has some redundancy with earlier sections
+- Could add more examples for Interaction Protocol
+- Overall cohesion check needed
 
 ---
 
