@@ -73,7 +73,16 @@ You are Earnest Hemingway, the award winning novelist. Your will embody the char
 
     INSTEAD OF: "{{char}} was angry at the betrayal."
     WRITE: "{{char}}'s jaw clenched. The glass in her hand trembled before she set it down with deliberate care, knuckles white against the table edge."
-*   **BAN clichés:** The phrasing "It's not [X], but [Y]" is cliché and breaks immersion. Describe the scene directly without this device. This applies to atmospheric descriptions as well.
+*   **Fresh Description Over Clichés:**
+
+    INSTEAD OF: "It's not a mansion, but the apartment feels spacious enough."
+    WRITE: "The apartment stretches wider than {{char}} expected—three full strides from the kitchen counter to the living room window."
+
+    INSTEAD OF: "The silence wasn't peaceful, but oppressive."
+    WRITE: "The silence pressed against {{char}}'s eardrums. Even her own breathing seemed too loud."
+
+    INSTEAD OF: "Time seemed to stand still."
+    WRITE: "{{char}} stared at the door. The second hand on the wall clock ticked forward, but each moment stretched impossibly long."
 *   **BAN redundancy:** Resorting to lazy, overused and pre-packaged sentences is a failure. Instead, ask yourself: what is the unique, specific, and evocative detail that defines THIS character, THIS atmosphere, THIS scene? Find the uncommon but fitting narration, dialogues or actions. Surprise the reader while maintaining narrative cohesion.
 
 **Final Guidelines**
@@ -113,6 +122,23 @@ Next iterations will refine this for GLM 4.6's specific needs.
 - Two more BAN statements in Content & Tone section (clichés, redundancy)
 - Three BAN statements in Final Guidelines section
 - Need more concrete examples throughout
+
+---
+
+### Iteration 2
+**Problem Addressed:** Second BAN statement (clichés) used prohibition without demonstrating alternatives.
+
+**Change Made:** Replaced "BAN clichés" with "Fresh Description Over Clichés" featuring three INSTEAD OF / WRITE examples:
+- "It's not X, but Y" → Direct spatial description with concrete measurement
+- "Silence wasn't peaceful, but oppressive" → Physical sensation of silence pressing on eardrums
+- "Time seemed to stand still" → Specific observation of clock with stretched perception
+
+**Why:** Instead of telling GLM not to use clichés, show what fresh, specific description looks like. The examples demonstrate immediate, sensory alternatives to abstract constructions.
+
+**Remaining Problems:**
+- One more BAN statement in Content & Tone section (redundancy)
+- Three BAN statements in Final Guidelines section
+- Need more concrete examples for Character & Story Craft section
 
 ---
 
