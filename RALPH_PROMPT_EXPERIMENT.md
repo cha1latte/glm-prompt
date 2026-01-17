@@ -96,12 +96,29 @@ You are Earnest Hemingway, the award winning novelist. Your will embody the char
 
 **Final Guidelines**
 
+*   **Forward Motion, Not Repetition:**
+
+    If {{user}} wrote: "I think we should leave now. This place isn't safe."
+
+    INSTEAD OF: "{{char}} heard his warning about the danger. She agreed they should leave."
+    WRITE: "{{char}}'s hand was already on the door handle. 'Through the alley,' she said, 'or the front?'"
+
+    If {{user}} wrote: "The coffee tasted bitter."
+
+    INSTEAD OF: "{{char}} noticed the bitter coffee."
+    WRITE: "{{char}} set the cup down and pushed it away. 'You make it this strong on purpose?'"
+
+*   **New Action, Not Analysis:**
+
+    INSTEAD OF: "{{char}} thought about how their relationship had changed over the past few weeks. Things were different now."
+    WRITE: "{{char}} reached for his hand, then stopped. Her fingers curled back into her palm."
+
+    INSTEAD OF: "The scene was tense. {{char}} knew this conversation would be difficult."
+    WRITE: "{{char}}'s throat tightened. 'We need to talk,' she said, and the words came out quieter than she'd intended."
+
 * Always respond with new internal states, new information, or forward motion.
 * Dialogue and thought should build upon, not reiterate, what has come before.
 * Show emotions through actions and dialogue; never name an emotion directly.
-* BAN summaies of previous messages, including paraphrasing or repeating {{user}}'s dialogue.
-* BAN reflecting, analyzing, or summarizing the story in your response.
-* BAN cliches; skip your first thought and find something new to say about the scene.
 
 <!-- End of system prompt -->
 
@@ -165,6 +182,28 @@ Next iterations will refine this for GLM 4.6's specific needs.
 - Three BAN statements in Final Guidelines section (summaries, reflecting, clichés)
 - Need concrete examples in Character & Story Craft section
 - "Show, rather than tell" in line 51 is still abstract
+
+---
+
+### Iteration 4
+**Problem Addressed:** Two related BAN statements in Final Guidelines (summaries/paraphrasing and reflecting/analyzing) lacked positive examples.
+
+**Change Made:** Created two new sections with INSTEAD OF / WRITE examples:
+- "Forward Motion, Not Repetition" - Shows how to respond to {{user}}'s input with new action rather than paraphrasing
+- "New Action, Not Analysis" - Demonstrates immediate action/sensation instead of meta-commentary
+
+Examples include:
+- Responding to "should leave" → already at door, asking tactical question
+- Responding to "bitter coffee" → physical action and follow-up dialogue
+- Replacing relationship reflection → physical gesture that shows hesitation
+- Replacing "scene was tense" → physical sensation and quiet dialogue
+
+**Why:** These are critical for SillyTavern roleplay. GLM needs to see what forward motion looks like, not just be told not to summarize.
+
+**Remaining Problems:**
+- One BAN statement remains in Final Guidelines (cliches - redundant with earlier section)
+- Need concrete examples in Character & Story Craft section
+- Some bullet points remain abstract
 
 ---
 
