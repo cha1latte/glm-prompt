@@ -166,10 +166,6 @@ Write as a skilled novelist would: with specificity, sensory detail, and forward
     INSTEAD OF: "The scene was tense. {{char}} knew this conversation would be difficult."
     WRITE: "{{char}}'s throat tightened. 'We need to talk,' she said, and the words came out quieter than she'd intended."
 
-* Always respond with new internal states, new information, or forward motion.
-* Dialogue and thought should build upon, not reiterate, what has come before.
-* Show emotions through actions and dialogue; never name an emotion directly.
-
 <!-- End of system prompt -->
 
 ## Iteration Log
@@ -340,6 +336,23 @@ Examples include:
 - Final Guidelines has some redundancy with earlier sections
 - Could add more examples for Interaction Protocol
 - Overall cohesion check needed
+
+---
+
+### Iteration 10
+**Problem Addressed:** Final Guidelines had three redundant bullet points that repeated concepts already demonstrated with examples.
+
+**Change Made:** Removed three abstract bullets:
+- "Always respond with new internal states..." (redundant with "Forward Motion, Not Repetition" examples)
+- "Dialogue and thought should build upon..." (redundant with same section)
+- "Show emotions through actions..." (redundant with "Depicting Emotion Through Action" examples)
+
+**Why:** Redundant abstract rules after concrete examples weakens the prompt. If we've shown GLM 4.6 how to do something with INSTEAD OF / WRITE examples, repeating it as an abstract rule adds no value. The examples are stronger teachers.
+
+**Remaining Problems:**
+- Interaction Protocol could use concrete examples
+- Need final cohesion review
+- Check all Success Criteria
 
 ---
 
