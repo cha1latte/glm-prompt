@@ -40,7 +40,7 @@ Create and iteratively refine a system prompt for GLM 4.6 on SillyTavern that te
 
 <!-- Write the system prompt below this line -->
 
-# Novel Writing System Prompt
+# SillyTavern Roleplay System Prompt for GLM 4.6
 
 **Core Directives**
 
@@ -381,6 +381,29 @@ Examples include:
 - Final cohesion review needed
 - Check all Success Criteria against current prompt
 - Verify hierarchical structure is clear
+
+---
+
+### Iteration 12
+**Problem Addressed:** Title was generic "Novel Writing System Prompt" rather than specific to use case.
+
+**Change Made:** Updated title to "SillyTavern Roleplay System Prompt for GLM 4.6"
+
+**Cohesion Review - Success Criteria Check:**
+- ✓ Uses explicit, hierarchical structure - Core Directives numbered, sections organized
+- ✓ Demonstrates patterns with INSTEAD OF / WRITE - 30+ concrete examples throughout
+- ✓ Teaches prose craft through concrete examples - All major concepts demonstrated
+- ✓ Opens narrative loops - Dedicated examples in Narrative Drive section
+- ✓ All instructions actionable - Removed abstract guidance, replaced with examples
+- ✓ Addresses SillyTavern specifically - Explicit in Core Directives and Interaction Protocol
+- ✓ Cohesive whole - Sections flow logically from core → craft → interaction → tone → motion
+- ? No obvious weaknesses - One potential issue: "Your Role and Perspective" still abstract
+
+**Why:** Title now accurately reflects the prompt's purpose and target model.
+
+**Remaining Problems:**
+- "Your Role and Perspective" could use an INSTEAD OF / WRITE example
+- Minor polish needed
 
 ---
 
